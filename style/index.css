@@ -1,0 +1,34 @@
+:root{
+    --canvasBackround:rgb(16, 24, 32);
+}
+
+body{
+    background-color :white;
+    margin :0px
+}
+
+#canvasDiv{
+    position: relative;
+}
+
+#canvas01, #selectDiv{
+    position: absolute;
+    top: 0px;
+}
+
+#selectDiv label {
+    font-size: medium;
+    color: cornsilk;
+}
+
+select {
+    background-color: var(--canvasBackround);
+    font-size: medium;
+    color: cornsilk;
+}
+
+#footer {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
