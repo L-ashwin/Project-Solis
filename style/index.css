@@ -11,24 +11,30 @@ body{
     position: relative;
 }
 
-#canvas01, #selectDiv{
+#canvas01{
     position: absolute;
     top: 0px;
 }
 
+ #selectDiv{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+ }
+
 #selectDiv label {
-    font-size: medium;
-    color: cornsilk;
+    font-size: large;
+    color: #F2BB9B;
 }
 
 select {
     background-color: var(--canvasBackround);
     font-size: medium;
-    color: cornsilk;
+    color: #F2BB9B;
 }
 
 #footer {
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    bottom: 10px;
+    right: 15px;
 }
