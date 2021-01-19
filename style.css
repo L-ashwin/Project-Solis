@@ -1,5 +1,5 @@
 :root{
-    --canvasBackround:rgb(16, 24, 32);
+    --canvasBackround:#0d1117;
 }
 
 body{
@@ -24,17 +24,11 @@ body{
 
 #selectDiv label {
     font-size: large;
-    color: #F2BB9B;
+    color: #c9d1d9;
 }
 
 select {
     background-color: var(--canvasBackround);
     font-size: medium;
-    color: #F2BB9B;
-}
-
-#footer {
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
+    color: #c9d1d9;
 }
